@@ -21,7 +21,7 @@ import com.chenguo.customviewdemo.R;
  * @Description: 半圆环形进度条
  * @author: chenguoguo
  * @date: 2017/7/26 上午10:22
- *
+ * ***********************
  *
  */
 public class HalfRingProgress extends View {
