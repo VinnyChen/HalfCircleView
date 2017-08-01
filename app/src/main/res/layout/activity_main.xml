@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chenguo.customviewdemo.MainActivity">
+
+    <!--<com.chenguo.customviewdemo.widgets.CircleView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <com.chenguo.customviewdemo.widgets.progress.HalfRingProgress
+        android:id="@+id/halfRingprogress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:ring_background="@android:color/darker_gray"
+        app:progress_color="#FFF97815"
+        app:textSize="20sp"
+        app:text= "80"
+        app:progress="90"
+        app:radius="80dp"
+        app:ringWidth="20dp"
+        app:isStartProgressAnim="true"/>
+
+</LinearLayout>

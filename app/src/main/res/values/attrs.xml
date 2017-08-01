@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HalfRingProgress">
+        <attr name="ring_background" format="color"/>
+        <attr name="width" format="dimension"/>
+        <attr name="height" format="dimension"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="progress_color" format="color"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="text" format="string"/>
+        <attr name="textColor" format="color"/>
+        <attr name="text_margin_bottom" format="dimension"/>
+        <attr name="isStartProgressAnim" format="boolean"/>
+        <attr name="isStartTextAnim" format="boolean"/>
+        <attr name="progress" format="float"/>
+        <attr name="ringWidth" format="dimension"/>
+    </declare-styleable>
+
+
+
+
+</resources>
